@@ -1,0 +1,103 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+.m0{margin: 0!important} .ml0{margin-left: 0!important} .mr0{margin-right: 0!important} .mt0{margin-top: 0!important} .mb0{margin-bottom: 0!important} .ma{margin-left: auto!important; margin-right: auto!important}
+.m5{margin: 5px!important} .ml5{margin-left: 5px!important} .mr5{margin-right: 5px!important} .mt5{margin-top: 5px!important} .mb5{margin-bottom: 5px!important}
+.m10{margin: 10px!important} .ml10{margin-left: 10px!important} .mr10{margin-right: 10px!important} .mt10{margin-top: 10px!important} .mb10{margin-bottom: 10px!important}
+.m15{margin: 15px!important} .ml15{margin-left: 15px!important} .mr15{margin-right: 15px!important} .mt15{margin-top: 15px!important} .mb15{margin-bottom: 15px!important}
+.m20{margin: 20px!important} .ml20{margin-left: 20px!important} .mr20{margin-right: 20px!important} .mt20{margin-top: 20px!important} .mb20{margin-bottom: 20px!important}
+.m25{margin: 25px!important} .ml25{margin-left: 25px!important} .mr25{margin-right: 25px!important} .mt25{margin-top: 25px!important} .mb25{margin-bottom: 25px!important}
+.m30{margin: 30px!important} .ml30{margin-left: 30px!important} .mr30{margin-right: 30px!important} .mt30{margin-top: 30px!important} .mb30{margin-bottom: 30px!important}
+.m35{margin: 35px!important} .ml35{margin-left: 35px!important} .mr35{margin-right: 35px!important} .mt35{margin-top: 35px!important} .mb35{margin-bottom: 35px!important}
+.m40{margin: 40px!important} .ml40{margin-left: 40px!important} .mr40{margin-right: 40px!important} .mt40{margin-top: 40px!important} .mb40{margin-bottom: 40px!important}
+.m45{margin: 45px!important} .ml45{margin-left: 45px!important} .mr45{margin-right: 45px!important} .mt45{margin-top: 45px!important} .mb45{margin-bottom: 45px!important}
+.m50{margin: 50px!important} .ml50{margin-left: 50px!important} .mr50{margin-right: 50px!important} .mt50{margin-top: 50px!important} .mb50{margin-bottom: 50px!important}
+.p0{padding: 0!important} .pl0{padding-left: 0!important} .pr0{padding-right: 0!important} .pt0{padding-top: 0!important} .pb0{padding-bottop: 0!important} .pa{padding-left: auto!important; padding-right: auto!important}
+.p5{padding: 5px!important} .pl5{padding-left: 5px!important} .pr5{padding-right: 5px!important} .pt5{padding-top: 5px!important} .pb5{padding-bottop: 5px!important}
+.p10{padding: 10px!important} .pl10{padding-left: 10px!important} .pr10{padding-right: 10px!important} .pt10{padding-top: 10px!important} .pb10{padding-bottom: 10px!important}
+.p15{padding: 15px!important} .pl15{padding-left: 15px!important} .pr15{padding-right: 15px!important} .pt15{padding-top: 15px!important} .pb15{padding-bottom: 15px!important}
+.p20{padding: 20px!important} .pl20{padding-left: 20px!important} .pr20{padding-right: 20px!important} .pt20{padding-top: 20px!important} .pb20{padding-bottom: 20px!important}
+.p25{padding: 25px!important} .pl25{padding-left: 25px!important} .pr25{padding-right: 25px!important} .pt25{padding-top: 25px!important} .pb25{padding-bottom: 25px!important}
+.p30{padding: 30px!important} .pl30{padding-left: 30px!important} .pr30{padding-right: 30px!important} .pt30{padding-top: 30px!important} .pb30{padding-bottom: 30px!important}
+.p35{padding: 35px!important} .pl35{padding-left: 35px!important} .pr35{padding-right: 35px!important} .pt35{padding-top: 35px!important} .pb35{padding-bottom: 35px!important}
+.p40{padding: 40px!important} .pl40{padding-left: 40px!important} .pr40{padding-right: 40px!important} .pt40{padding-top: 40px!important} .pb40{padding-bottom: 40px!important}
+.p45{padding: 45px!important} .pl45{padding-left: 45px!important} .pr45{padding-right: 45px!important} .pt45{padding-top: 45px!important} .pb45{padding-bottom: 45px!important}
+.p50{padding: 50px!important} .pl50{padding-left: 50px!important} .pr50{padding-right: 50px!important} .pt50{padding-top: 50px!important} .pb50{padding-bottom: 50px!important}
+.br0{border-radius: 0;-moz-border-radius:0;-webkit-border-radius:0;} .shadow{-moz-box-shadow:0 0 5px rgba(0,0,0,0.5);-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5);box-shadow:0 0 5px rgba(0,0,0,0.5); } a{outline: none!important;}
+
+nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
+nav.navbar-findcond a { color: #f14444; }
+nav.navbar-findcond ul.navbar-nav a { color: #f14444; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active { background: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover { border-color: #f14444; }
+nav.navbar-findcond li.divider { background: #ccc; }
+nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
+nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
+nav.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+
+.navbar-nav>li>a{
+    padding: 5px 10px!important;
+    margin: 5px;
+}
+.panel-body > h1{
+    font-size: 24px!important;
+    font-weight: bold!important;
+}
+.panel-body > p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+{box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+    font-weight: bold;
+    padding: 2px;
+  height: 22px;
+  width: 22px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

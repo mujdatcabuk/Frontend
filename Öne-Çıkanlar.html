@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Öne Çıkanlar</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav>
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">SkorMetre Logo</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" data-toggle="modal" data-target="#myModal">Üye Ol<span class="sr-only">(current)</span></a></li>
+				<li class="dropdown">
+						<a class="dropdown-toggle" href="#" data-toggle="dropdown">Giriş Yap <strong class="caret"></strong></a>
+						<div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
+							<form method="post" action="login" accept-charset="UTF-8">
+								<input style="margin-bottom: 15px; padding: 5px;" type="text" placeholder="Kullanıcı Adı" id="username" name="username">
+								<input style="margin-bottom: 15px; padding: 5px;" type="password" placeholder="Şifre" id="password" name="password">
+								<input style="float: left; margin: 5px;" type="checkbox" name="remember-me" id="remember-me" value="1">
+								<label class="string optional mt5" for="user_remember_me"> Beni Hatırla</label>
+								<input class="btn btn-primary btn-block mb10 mt10" type="submit" id="sign-in" value="Giriş Yap">
+							</form>
+						</div>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+	<nav>
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-left">
+				<li><a href="#">Öne Çıkanlar<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Haftanın Enleri<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Canlı Sonuçlar<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Takım İstatistikleri<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Lig İstatistikleri<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">İddaa Arşivi<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Günün Maçları<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Öne Çıkan Tahminler<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Geçmiş Tahminler<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Algoritma<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">Pro Üyelik<span class="sr-only">(current)</span></a></li>
+				<li><a href="#">İletişim<span class="sr-only">(current)</span></a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mt10">
+				<div class="col-md-8">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					  	<h2>Öne Çıkan İstatistikler</h2>
+					  </div>
+					  <div class="panel-body">
+					  	<div class="slideshow-container">
+						    <div class="mySlides fade">
+						    	<div class="panel-body" style="margin-left: 70px;">
+								    <h1 class="m5">En Çok Kazananlar</h1>
+								    <p class="m5">Bu takımlar kazandırıyor</p>
+								    <img class="m20" src="images/logo-1.png" style="width: 100px; height: 100px;">
+								    <img class="m20" src="images/logo-2.png" style="width: 100px; height: 100px;">
+								    <img class="m20" src="images/logo-3.png" style="width: 100px; height: 100px;">
+								</div>
+						    </div>
+						    <div class="mySlides fade">
+						    	<div class="panel-body" style="margin-left: 70px;">
+								    <h1 class="m5">En Çok Kaybedenler</h1>
+								    <p class="m5">Bu takımlar saç baş yolduruyor</p>
+								    <img class="m20" src="images/logo-1.png" style="width: 100px; height: 100px;">
+								    <img class="m20" src="images/logo-2.png" style="width: 100px; height: 100px;">
+								    <img class="m20" src="images/logo-3.png" style="width: 100px; height: 100px;">
+								  </div>
+						    </div>
+						    <div class="mySlides fade">
+						      <div class="panel-body" style="margin-left: 70px;">
+							    <h1 class="m5">En Çok Berabere Kalanlar</h1>
+							    <p class="m5">Bu takımlar etliye sütlüye karışmıyor</p>
+							    <img class="m20" src="images/logo-1.png" style="width: 100px; height: 100px;">
+							    <img class="m20" src="images/logo-2.png" style="width: 100px; height: 100px;">
+							    <img class="m20" src="images/logo-3.png" style="width: 100px; height: 100px;">
+							  </div>
+						    </div>
+						    <div class="mySlides fade">
+						      <div class="panel-body" style="margin-left: 70px;">
+							    <h1 class="m5">Maçları En Çok Üst Bitenler</h1>
+							    <p class="m5">Gol olur!</p>
+							    <img class="m20" src="images/logo-1.png" style="width: 100px; height: 100px;">
+							    <img class="m20" src="images/logo-2.png" style="width: 100px; height: 100px;">
+							    <img class="m20" src="images/logo-3.png" style="width: 100px; height: 100px;">
+							  </div>
+						    </div>
+						    <div class="mySlides fade">
+						      <div class="panel-body" style="margin-left: 70px;">
+							    <h1 class="m5">Maçları En Çok Alt Bitenler</h1>
+							    <p class="m5">Maçları kısır geçiyor</p>
+							    <img class="m20" src="images/logo-1.png" style="width: 100px; height: 100px;">
+							    <img class="m20" src="images/logo-2.png" style="width: 100px; height: 100px;">
+							    <img class="m20" src="images/logo-3.png" style="width: 100px; height: 100px;">
+							  </div>
+						    </div>
+						  </div>
+						  <div style="text-align:center">
+							  <span class="dot">1</span> 
+							  <span class="dot">2</span> 
+							  <span class="dot">3</span> 
+							  <span class="dot">4</span> 
+							  <span class="dot">5</span> 
+						  </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Reklam Alanı</div>
+					  <div class="panel-body">
+					    Reklam 1
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Evinde En Çok Kazananlar</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>17</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-3.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>19</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Maçları En Gollü Biten Hakemler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">En Çok Gol Atanlar</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">En Çok Gol Yiyenler</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Deplasmanda En Çok Kazananlar</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-3.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>17</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>19</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Maçları En Golsüz Biten Hakemler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">En Uzun Süredir Gol Atanlar</div>
+					  <div class="panel-body">
+					  	<table>
+					  		<tr>
+					  			<th><img class="ml5" src="images/logo-1.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-2.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-3.png" style="width: 50px; height: 50px;"></th>
+					  		</tr>
+					  		<tr>
+					  			<th><p class="ml15 mt10">26</p></th>
+					  			<th><p class="ml25">15</p></th>
+					  			<th><p class="ml30">14</p></th>
+					  		</tr>
+					  	</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">En Uzun Süredir Gol Yiyenler</div>
+					  <div class="panel-body">
+					  	<table>
+					  		<tr>
+					  			<th><img class="ml5" src="images/logo-1.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-2.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-3.png" style="width: 50px; height: 50px;"></th>
+					  		</tr>
+					  		<tr>
+					  			<th><p class="ml15 mt10">26</p></th>
+					  			<th><p class="ml25">15</p></th>
+					  			<th><p class="ml30">14</p></th>
+					  		</tr>
+					  	</table>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Evinde En Çok Kaybedenler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-3.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>17</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>19</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">En Çok Kart Gösteren Hakemler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">KG Var Takımları</div>
+					  <div class="panel-body">
+					  	<table>
+					  		<tr>
+					  			<th><img class="ml5" src="images/logo-1.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-2.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-3.png" style="width: 50px; height: 50px;"></th>
+					  		</tr>
+					  		<tr>
+					  			<th><p class="ml15 mt10">26</p></th>
+					  			<th><p class="ml25">15</p></th>
+					  			<th><p class="ml30">14</p></th>
+					  		</tr>
+					  	</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">KG Yok Takımları</div>
+					  <div class="panel-body">
+					  	<table>
+					  		<tr>
+					  			<th><img class="ml5" src="images/logo-1.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-2.png" style="width: 50px; height: 50px;"></th>
+					  			<th><img class="ml15" src="images/logo-3.png" style="width: 50px; height: 50px;"></th>
+					  		</tr>
+					  		<tr>
+					  			<th><p class="ml15 mt10">26</p></th>
+					  			<th><p class="ml25">15</p></th>
+					  			<th><p class="ml30">14</p></th>
+					  		</tr>
+					  	</table>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Deplasmanda En Çok Kaybedenler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-3.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>17</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>19</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">En Az Kart Gösteren Hakemler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">1.5 Alt Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">3.5 Üst Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Evinde En Çok Berabere Kalanlar</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-3.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>17</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>19</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Ev Sahibine Kazandıran Hakemler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">1/1 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">0/1 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Deplasmanda En Çok Berabere Kalanlar</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-3.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>17</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-1.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td width="50"><img src="images/logo-2.png" width="30" height="30"></td>
+								<td>Takım İsmi</td>
+								<td>19</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Deplasman Takımına Kazandıran Hakemler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">2/1 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">1/0 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">Maçları Berabere Biten Hakemler</div>
+					  <div class="panel-body">
+					    <table class="table table-striped table-bordered">
+						<tbody>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>Foto</td>
+								<td>Hakem İsmi</td>
+								<td>20</td>
+							</tr>
+							</tbody>
+						</table>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">0/0 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">2/0 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4"></div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">1/2 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">0/2 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4"></div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">2/2 Takımları</div>
+					  <div class="panel-body">
+					  	<img class="m5" src="images/logo-1.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-2.png" style="width: 50px; height: 50px;">
+					    <img class="m5" src="images/logo-3.png" style="width: 50px; height: 50px;">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+	<div class="modal" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Üye Ol</h4>
+	        </div>
+	        <div class="modal-body">
+	          <form class="" method="post" action="#">
+	              <div class="form-group mt10">
+	                <div class="cols-sm-10">
+	                  <div class="input-group">
+	                    <span class="input-group-addon"><i class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+	                    <input type="text" class="form-control" name="Ad Soyad" id="ad-soyad"  placeholder="Ad Soyad"/>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="form-group">
+	                <div class="cols-sm-10">
+	                  <div class="input-group">
+	                    <span class="input-group-addon"><i class="fa fa-envelope fa glyphicon glyphicon-envelope" aria-hidden="true"></i></span>
+	                    <input type="text" class="form-control" name="email" id="email"  placeholder="E-posta"/>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="form-group">
+	                <div class="cols-sm-10">
+	                  <div class="input-group">
+	                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock" aria-hidden="true"></i></span>
+	                    <input type="password" class="form-control" name="password" id="password"  placeholder="Şifre"/>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="form-group">
+	                <div class="cols-sm-10">
+	                  <div class="input-group">
+	                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock" aria-hidden="true"></i></span>
+	                    <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Şifre Tekrar"/>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="form-group">
+	                <a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button mt0 mb0">Kayıt Ol</a>
+	              </div>
+	            </form>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Geri</button>
+	        </div>
+	      </div>
+	    </div>
+	</div>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		    var i;
+		    var slides = document.getElementsByClassName("mySlides");
+		    var dots = document.getElementsByClassName("dot");
+		    for (i = 0; i < slides.length; i++) {
+		       slides[i].style.display = "none";  
+		    }
+		    slideIndex++;
+		    if (slideIndex > slides.length) {slideIndex = 1}    
+		    for (i = 0; i < dots.length; i++) {
+		        dots[i].className = dots[i].className.replace(" active", "");
+		    }
+		    slides[slideIndex-1].style.display = "block";  
+		    dots[slideIndex-1].className += " active";
+		    setTimeout(showSlides, 3000); // Change image every 2 seconds
+		}
+	</script>
+</body>
+</html>
